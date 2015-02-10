@@ -1,0 +1,9 @@
+Work Outline
+
+Design: Zhenlin Zhang
+Source code: Zhenlin Zhang;
+Images: most of them are created by Zhenlin Zhang, three of them are from Internet;
+Audio: From phaser example;
+Document: Zhenlin Zhang;
+
+I wish I can only do design part, no more than images.
