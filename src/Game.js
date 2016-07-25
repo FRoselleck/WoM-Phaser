@@ -800,13 +800,13 @@ BasicGame.Game.prototype = {
         this.input.onUp.add(this.release, this);
         this.input.addMoveCallback(this.move, this);
         // this.input.onTap.add(this.clickEvent,this);
-        this.gainE(Marble[0],2,3);
-        this.gainE(Marble[2],1,2);
-        this.gainE(Marble[2],2,2);
-        this.gainE(Marble[2],3,3);
-        this.gainE(Marble[2],4,4);
+        // this.gainE(Marble[0],2,3);
+        // this.gainE(Marble[2],1,2);
+        // this.gainE(Marble[2],2,2);
+        // this.gainE(Marble[2],3,3);
+        // this.gainE(Marble[2],4,4);
         // this.gainE(Marble[2],1,3);
-        Marble[0].body.velocity.y=450;
+        // Marble[0].body.velocity.y=450;
         var backButton = this.add.button(775, BB/2, 'Back', this.quitGame, this);
         backButton.anchor.setTo(0.5);
         // backButton.scale.set(0.8);
@@ -841,8 +841,8 @@ BasicGame.Game.prototype = {
     {
         // console.log(this);
 		//	Honestly, just about anything could go here. It's YOUR game after all. Eat your heart out!
-        Temp.test.text=" "+Temp.against+"\n"+Marble[0].fire+" "+Marble[0].water+" "+Marble[0].wind+" "+Marble[0].earth+"\n"+Marble[1].fire+" "+Marble[1].water+" "+Marble[1].wind+" "+Marble[1].earth+"\n"+Marble[2].fire+" "+Marble[2].water+" "+Marble[2].wind+" "+Marble[2].earth+"\n"+Marble[3].fire+" "+Marble[3].water+" "+Marble[3].wind+" "+Marble[3].earth+"\n";
-        Temp.test2.text="\n\ncurPlayer:"+Play.curPlayer+"  state"+Temp.state;
+        Temp.test.text="";// "+Temp.against+"\n"+Marble[0].fire+" "+Marble[0].water+" "+Marble[0].wind+" "+Marble[0].earth+"\n"+Marble[1].fire+" "+Marble[1].water+" "+Marble[1].wind+" "+Marble[1].earth+"\n"+Marble[2].fire+" "+Marble[2].water+" "+Marble[2].wind+" "+Marble[2].earth+"\n"+Marble[3].fire+" "+Marble[3].water+" "+Marble[3].wind+" "+Marble[3].earth+"\n";
+        Temp.test2.text="";//\n\ncurPlayer:"+Play.curPlayer+"  state"+Temp.state;
         if(Ready.init)
         {
             if(Temp.dragging)
